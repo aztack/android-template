@@ -6,7 +6,7 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "label": "Project name, no space or punctuations, for example: MyProject"
+      "label": "Project name, no space or punctuations, for example: my-project"
     },
     "package": {
       "type": "string",
