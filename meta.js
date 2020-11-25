@@ -29,7 +29,7 @@ module.exports = {
     const name = data.name;
 
     // create folders
-    const pkg = `src/main/kotlin/${data.package.replace(/\./g, '/')}`;
+    const pkg = `src/main/java/${data.package.replace(/\./g, '/')}`;
     ['libs', pkg].forEach(function(dir){
       console.log(`creating ${dir} folder`);
       $fs.mkdirSync($path.resolve(cwd, `app/${dir}`), {recursive: true});
