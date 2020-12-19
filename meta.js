@@ -17,7 +17,7 @@ module.exports = {
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "A Android Kotlin Project"
+      "default": "An Android Project"
     },
     "author": {
       "type": "string",
